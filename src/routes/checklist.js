@@ -34,6 +34,7 @@ router.delete("/id:", (req, res) => {
   console.log(req.params.body);
   res.send(`ID: ${req.params.params}`);
 });
+a;
 
 // exportando a rota
 module.exports = router;
